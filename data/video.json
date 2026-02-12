@@ -1,1 +1,14 @@
-{}
+[
+  {
+    "title": "insert here",
+    "short-description": "insert here",
+    "long-desdescriptioncription": "insert here",
+    "video": "path goes here",
+  },
+  {
+    "title": "insert here",
+    "short-description": "insert here",
+    "long-description": "insert here",
+    "video": "path goes here",
+  }
+]
