@@ -1,14 +1,14 @@
 [
   {
     "title": "insert here",
-    "short-description": "insert here",
-    "long-description": "insert here",
-    "images": ["path goes here", "and here for more"],
+    "short_description": "insert here",
+    "long_description": "insert here",
+    "images": ["path goes here", "and here for more"]
   },
   {
     "title": "insert here",
-    "short-description": "insert here",
-    "long-description": "insert here",
-    "images": ["path goes here", "and here for more"],
+    "short_description": "insert here",
+    "long_description": "insert here",
+    "images": ["path goes here", "and here for more"]
   }
 ]
