@@ -21,10 +21,12 @@
 /*Body and text*/
 body{
     background-color: var(--light-clr);
+    background-image: url(/assets/icons/bg-texture.jpg);
+    background-size: cover;
+    color: #1B1B1B;
 }
 
 a{
-    color: var(--dark-clr);
     text-decoration: none;
     font-family: "Instrument Sans", sans-serif;
     font-optical-sizing: auto;
@@ -33,14 +35,19 @@ a{
     font-variation-settings:"wdth" 100;
 }
 h1,h2{
-    color: var(--dark-clr);
     font-family: "Konkhmer Sleokchher", system-ui;
     font-weight: 600;
     font-style: normal;
     margin: 0;
 }
+summary{
+    font-size: 4rem;
+    padding: 2rem;
+     font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 400;
+    font-style:unset;
+}
 p{  
-    color: var(--dark-clr);
     font-family: "Instrument Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -54,7 +61,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6rem;
+    margin: 10rem;
+    margin-bottom: 15rem;
 }
 .intro-text{
     margin: 2rem;
@@ -62,6 +70,7 @@ p{
 .intro img{
     border-right: 5px solid #1B1B1B ;
     padding: 2rem;
+    max-width: 30%;
     
 }
 .intro h1{
@@ -75,9 +84,52 @@ p{
 }
 .about-btn{
     font-size: 2rem;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 20px;
     background-color: #4B4259;
     color: #FDF7F0;
-    margin: left 2rem;
+    margin: 4rem 2rem;
+}
+
+/*Portfolio*/
+details{
+    margin: 4rem 12rem;
+}
+summary{
+    border-bottom: 5px solid #4B4259;
+    padding: 0rem;
+    cursor: pointer;
+    font-size: 5rem;
+    max-height: fit-content;
+}
+summary::marker{
+    content: none;
+}
+details h2{
+    line-height: 2rem;
+    font-size: 3rem;
+    margin: 1rem 0.5rem;
+}
+details p{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.portfolio-grid{
+columns: 3;
+margin: 1rem;
+}
+.display{
+    display: inline-block;
+    margin: 1rem;
+    border: rgb(27, 27, 27, 0) solid 10px;
+}
+.display img{
+max-width: 100%;
+border-radius: 20px;
+}
+
+/*the snazzy stuff*/
+.display:hover{
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
 }
