@@ -8,57 +8,99 @@
     <link href="/src/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-[#FDF7F0]">
-    <script src="js/small_display.js"></script>
+<body class="bg-light text-dark font-body bg-[url('/assets/icons/bg-texture.jpg')] bg-cover">
 
+  <!-- Intro Section -->
+  <section class="flex flex-col lg:flex-row items-center justify-center my-40 lg:my-60 px-6 lg:px-24">
+    <img src="/assets/icons/personal-logo.png"
+         class="border-r-4 border-dark p-8 max-w-full lg:max-w-[30%] mb-8 lg:mb-0" />
 
-    <section class="max-w-md mx-auto">
-            <img src="/assets/icons/personal-logo.png">
-            <div>
-                <h1 class="text-8xl font-bold">Welcome<br>I'm Annalicia Salazar</h1>
-                <p class="text-4xl"> Graphic & Web Designer | Illustrator | Visual Arts Student</p>
-            </div>
-    </section>
+    <div class="lg:ml-12 text-center lg:text-left">
+      <h1 class="font-heading text-5xl md:text-7xl lg:text-[8rem] leading-tight">
+        Welcome!<br>I'm Annalicia Salazar
+      </h1>
+      <p class="text-xl md:text-2xl lg:text-3xl mt-4">
+        Graphic & Web Designer | Illustrator | Visual Arts Student
+      </p>
 
+      <a href="/about-me.html"
+         class="inline-block text-xl md:text-2xl lg:text-2xl rounded-2xl px-6 py-4 bg-primary text-light mt-8">
+        About me
+      </a>
+    </div>
+  </section>
 
-    <section class="">
-        <h1 class="p-10 text-8xl">Illustration</h1>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="p-2">
-                <img src="/assets/illustration/overgrowth-of-blame.jpg" class="rounded-4xl">
-                <h2 class="text-6xl">Project Title</h2>
-                <p class="text-4xl">Project Desc</p>
-                <h1>larger bark</h1>
-            </div>
-            <div>
-                <img src="/assets/illustration/pools-of-the-past.jpg" class="rounded-4xl">
-                <h2>meow</h2>
-                <p>smaller meow</p>
-                <h1>larger bark</h1>
-            </div>
-            <div>
-                <img>
-                <h2>meow</h2>
-                <p>smaller meow</p>
-                <h1>larger bark</h1>
-            </div>
-            <div>
-                <img>
-                <h2>meow</h2>
-                <p>smaller meow</p>
-                <h1>larger bark</h1>
-            </div>
-            <div>
-                <img>
-                <h2>meow</h2>
-                <p>smaller meow</p>
-                <h1>larger bark</h1>
-            </div>
-        </div>
-    </section>
+  <!-- Portfolio Sections -->
 
-    <footer>
-    </footer>
+  <!-- Illustration -->
+  <details class="max-w-7xl mx-auto my-16 px-6">
+    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
+      Illustration
+    </summary>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="/assets/illustration/forget-me-forget-me-nots.jpg" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Forget me Forget-me-nots</h2>
+        <p class="text-lg">Digital Art | Procreate | Published</p>
+      </div>
+
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="/assets/illustration/lane-composition-study.jpg" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
+        <p class="text-lg">Project desc</p>
+      </div>
+
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="/assets/illustration/pesrity-dalhlhaira.jpg" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
+        <p class="text-lg">Project desc</p>
+      </div>
+
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="/assets/illustration/pools-of-the-past.jpg" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
+        <p class="text-lg">Project desc</p>
+      </div>
+
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="/assets/illustration/overgrowth-of-blame.jpg" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
+        <p class="text-lg">Project desc</p>
+      </div>
+    </div>
+  </details>
+
+  <!-- Design -->
+  <details class="max-w-7xl mx-auto my-16 px-6">
+    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
+      Design
+    </summary>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Title</h2>
+        <p class="text-lg">Medium | Software | Something</p>
+      </div>
+    </div>
+  </details>
+
+  <!-- Video -->
+  <details class="max-w-7xl mx-auto my-16 px-6">
+    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
+      Video
+    </summary>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="group transition duration-200 hover:scale-[1.02]">
+        <img src="" class="rounded-2xl w-full" />
+        <h2 class="font-heading text-2xl mt-4">Title</h2>
+        <p class="text-lg">Medium | Software | Something</p>
+      </div>
+    </div>
+  </details>
+
 </body>
 
 </html>
