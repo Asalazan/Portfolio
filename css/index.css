@@ -68,7 +68,7 @@ p{
     margin: 2rem;
 }
 .intro img{
-    border-right: 5px solid #1B1B1B ;
+    border-right: 5px solid;
     padding: 2rem;
     max-width: 30%;
     
@@ -96,7 +96,7 @@ details{
     margin: 4rem 12rem;
 }
 summary{
-    border-bottom: 5px solid #4B4259;
+    border-bottom: 5px solid;
     padding: 0rem;
     cursor: pointer;
     font-size: 5rem;
@@ -133,3 +133,16 @@ border-radius: 20px;
     transform: scale(1.02);
     transition: 0.1s ease-in-out;
 }
+
+/*light and dark mode*/
+
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #1B1B1B;
+        background-blend-mode: overlay;
+    }
+    h1,h2,p,a,details{
+        color: #FDF7F0;
+    }
+}
+
