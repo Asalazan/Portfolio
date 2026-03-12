@@ -1,0 +1,140 @@
+/*Fonts and color*/
+.konkhmer-sleokchher-regular {
+  font-family: "Konkhmer Sleokchher", system-ui;
+  font-weight: 400;
+  font-style:unset;
+}
+.instrument-sans-regular {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+:root{
+    --light-clr:#FDF7F0;
+    --dark-clr:#1B1B1B;
+    --primary-clr:#4B4259;
+}
+
+/*POP UP BODY*/
+.pop-up h3, .pop-up p{
+    color: #1B1B1B;
+}
+.pop-up {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  visibility: hidden;
+  backdrop-filter: blur(5px);
+}
+.pop-up img{
+    border-radius:1rem ;
+}
+.pop-up-content {
+      transform: scale(0.8);
+  background: rgba(232, 226, 233, 0.95);
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 0rem 10rem;
+  display: inline-block;
+ overflow-x:hidden;
+ overflow-y: scroll;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+
+}
+.main-content img{
+    max-width: 100%;
+}
+.pop-up-text{
+    padding: 0rem 5rem;
+    max-width: 120ch;
+}
+
+/*GALLERY (the gallery did NOT want to work with me)*/
+.gallery {
+    max-height: 30rem;
+    max-width: 125rem;
+    justify-content: center;
+}
+.gallery-grid{
+  display: inline-block;
+  flex-wrap: wrap;
+  columns: 3;
+}
+.gallery-img{
+    max-width: 100%;
+}
+.gallery img{
+max-width: 100%;
+margin: 0.5rem 0rem;
+}
+
+/*Text and buttons (just 1)*/
+.pop-up h3{
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    line-height:5rem;
+    margin: 2rem 0rem;
+    font-size: 5rem;
+}
+.pop-up p{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.pop-up-close-btn {
+  text-decoration: none;
+  color: var(--light-clr);
+  padding: 15px 30px;
+  border-radius: 20px;
+  background: var(--primary-clr);
+  font-size: 3rem;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/*Snazzy stuff*/
+.pop-up-close-btn:hover {
+  opacity: 0.9;
+}
+.pop-up:target {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  visibility: visible;
+  transition: 0.2s ease-in-out;
+}
+.pop-up:target > .pop-up-content{
+    transform: scale(1);
+  transition: 0.2s ease-in-out;
+}
+/*the better version*/
+
+@media(prefers-color-scheme: dark){
+    .pop-up-content{
+        background-color: rgba(20, 17, 24, 0.9);
+        background-blend-mode: multiply;
+    }
+    .pop-up p, .pop-up h3{
+        color: #f1e9dd;
+    }
+    .logo{
+        filter: invert(90%) sepia(20%);
+    }
+    .btn-icons img{
+         filter: invert(92%) sepia(20%)
+    }
+}

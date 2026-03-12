@@ -1,0 +1,252 @@
+/*Fonts and color*/
+.konkhmer-sleokchher-regular {
+  font-family: "Konkhmer Sleokchher", system-ui;
+  font-weight: 400;
+  font-style:unset;
+}
+.instrument-sans-regular {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+:root{
+    --light-clr:#FDF7F0;
+    --dark-clr:#1B1B1B;
+    --primary-clr:#4B4259;
+}
+
+/*Body and text*/
+body{
+    background-color: rgb(188, 168, 206);
+    background-image: url(/assets/icons/bg-texture1.jpg);
+    background-blend-mode:multiply;
+    background-size:cover;
+    color: var(--dark-clr);
+}
+
+a{
+    text-decoration: none;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: var(--dark-clr);
+}
+h1,h2,h3{
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    line-height:8rem;
+    color: var(--dark-clr);
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 4rem;
+    border-bottom: 5px solid;
+    line-height: 6rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+summary{
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 400;
+    font-style:unset;
+}
+summary::marker{
+    content:"◇";
+}
+details[open] > summary::marker{
+    content:"◆";
+}
+details{
+     line-height: 2rem
+}
+details p{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    font-variation-settings:"wdth" 100;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+ul{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    font-variation-settings:"wdth" 100;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+li{
+    padding: 0.5rem;
+}
+p{  
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    margin: 0;
+}
+
+/* ABOUT ME */
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.about-text{
+    border-right: 5px solid;
+    padding: 4rem 2rem;
+}
+.about-me img{
+    margin: 10rem;
+    border-radius: 20px;
+    scale: 1.5;
+}
+.phonetic-spelling{
+    font-size: 2rem;
+    font-style:italic ;
+}
+.about-paragraph{
+    font-size: 3rem;
+    max-width: 100rem;
+    margin: 1rem 0rem 4rem 0rem;
+    max-width: 28ch;
+}
+.portfolio-btn{
+    font-size: 3rem;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--primary-clr);
+    color: #FDF7F0;
+    margin-right: 1rem;
+}
+.btn-icons{
+    display: flex;
+    align-items: center;
+}
+.btn-icons img{
+    max-width:55px;
+    margin: 2rem;
+}
+/* MID SECTION */
+.mid-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10rem;
+    padding-bottom: 6rem;
+}
+.decor img{
+    position: relative;
+    top: 200px;
+    scale: 1.5;
+}
+.skill-education{
+    display: inline-block;
+}
+
+/* BOTTOM SECTION */
+.bottom-section{
+    margin: 0rem 20rem;
+}
+.bottom-section summary::marker{
+    content: none;
+}
+.bottom-section details[open] > summary::marker{
+    content:none;
+}
+.bottom-section h2{
+    text-align: center;
+}
+.work-section div{
+    display: flex;
+    justify-content: space-between;
+}
+.work-section p{
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 5rem;
+    color: var(--dark-clr);
+    font-size: 4rem;
+}
+h3 a{
+    font-size: 3rem;
+    line-height: 3rem;
+      font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: 600;
+}
+
+/*the snazzy stuff*/
+.portfolio-btn:hover{
+    background-color: var(--primary-clr);
+    transform: scale(1.10);
+    transition: 0.1s ease-in-out;
+    color: var(--light-clr);
+}
+details:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.1s ease-in-out;
+}
+details[open]{
+     transform: scale(1.04);
+}
+
+a img:hover{
+    transform: scale(1.10);
+    transition: 0.1s ease-in-out;
+}
+.skills, .education{
+    margin-bottom: 2rem;
+}
+h3 a:hover{
+    text-decoration: underline;
+}
+/*light and dark mode*/
+
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: rgba(26, 22, 29, 0.900);
+        background-blend-mode: multiply;
+    }
+    h1,h2,h3,p,a,ul,details{
+        color: var(--light-clr);
+    }
+    .about-text{
+        border-color: #f1e9dd;
+    }
+    .logo{
+        filter: invert(90%) sepia(20%);
+    }
+    .btn-icons img{
+         filter: invert(92%) sepia(20%)
+    }
+}

@@ -10,81 +10,119 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
 
     <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/pop-up.css" rel="stylesheet">
 </head>
 
 <body>
     <script src="js/small_display.js"></script>
 
+<!--HERO SECTION-->
     <section class="intro">
-        <img src="/assets/icons/personal-logo.png">
+        <img class="logo" src="/assets/icons/personal-logo.png">
         <div class="intro-section">
-             <div  class="intro-text">
-            <h1>Welcome!<br>I'm Annalicia Salazar</h1>
-            <p>Graphic & Web Designer | Illustrator | Visual Arts Student</p>
+
+            <div  class="intro-text">
+                <h1>Welcome!<br>I'm Annalicia Salazar</h1>
+                <p>Graphic & Web Designer | Illustrator | Visual Arts Student</p>
             </div>
-            <a class="about-btn" href="/about-me.html" class="about-me"> About me</a>
+            <!--these may change idk-->
+            <div class="btn-icons">
+                <a class="about-btn" href="/about-me.html"> About me</a>
+                <a title="LinkedIn" href=":3"><img src="/assets/icons/linkedin.png"></a>
+                <a title="YouTube" href="https://www.youtube.com/@AnnaliciaSalazar"><img src="/assets/icons/youtube.png"></a>
+                <a title="GitHub" href="https://github.com/Asalazan"><img src="/assets/icons/github.png"></a>
+                <a Title="Email" href="mailto:annaliciak7salazan@gmail.com"><img src="/assets/icons/email.png"></a>
+            </div>
+
         </div>
     </section>
 
+<!--PORTFOLIO SECTION-->
+    <section class="portfolio">
+
+    <!--ILLUSTRATION-->
     <details class="portfolio-catagory">
          <summary>Illustration</summary>
             <div class="portfolio-grid">
-                <div class="display">
-                    <img src="/assets/illustration/forget-me-forget-me-nots.jpg">
-                    <h2>Forget me Forget-me-nots</h2>
-                    <p>Digital Art | Procreate | Published</p>
+
+                <!--illustration content-->
+                <div id="illustration-thumbnail-1" class="display">
+                    <a href="#illustration-1" class="btn">
+                        <img src="">
+                        <h2>Title</h2>
+                        <p>Project desc</p>
+                    </a>
                 </div>
 
-                <div class="display">
-                    <img src="/assets/illustration/lane-composition-study.jpg">
-                    <h2>Project Title</h2>
-                    <p>Project desc</p>
-                </div>
-
-                <div class="display">
-                    <img src="/assets/illustration/pesrity-dalhlhaira.jpg">
-                    <h2>Project Title</h2>
-                    <p>Project desc</p>
-                </div>
-
-                <div class="display">
-                    <img src="/assets/illustration/pools-of-the-past.jpg">
-                    <h2>Project Title</h2>
-                    <p>Project desc</p>
-                </div>
-
-                <div class="display">
-                    <img src="/assets/illustration/overgrowth-of-blame.jpg">
-                    <h2>Project Title</h2>
-                    <p>Project desc</p>
-                </div>
-                
-             </div>
+            </div>
     </details>
 
+    <!--DESIGN-->
      <details class="portfolio-catagory">
          <summary>Design</summary>
             <div class="portfolio-grid">
-                <div class="display">
+
+                <!--design content-->
+                <div id="design-thumbnail-1" class="display">
+                    <a href="#design-1" class="btn"></a>
                     <img src="">
                     <h2>title</h2>
-                    <p>medium | software | something</p>
+                    <p>Project desc</p>
                 </div>
+
             </div>
     </details> 
 
+    <!--VIDEO-->
     <details class="portfolio-catagory">
          <summary>Video</summary>
             <div class="portfolio-grid">
-                <div class="display">
+
+                <!--video content-->
+                <div id="video-thumbnail-1" class="display">
+                    <a href="#v-1" class="btn"></a>
                     <img src="">
                     <h2>title</h2>
-                    <p>medium | software | something</p>
+                    <p>Project desc</p>
                 </div>
+
             </div>
     </details> 
+</section>
 
+ <!--HIDDEN POP UP-->
+<div class="pop-up" id="illustration-1" role="dialog" aria-labelledby="portfolio-work-pop-up" aria-hidden="false">
+    <div class="pop-up-content">
+
+            <!-- pop up content-->
+            <div class="main-content">
+                <img src="">
+                <div class="pop-up-text">
+                     <h3>Title but this time its longer (wow)</h3>
+                    <p>some fun long description text here that 
+                        explains more about the project and work done</p>
+                    <a href="#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close">Back</a>
+                </div>
+             </div>
+                        
+            <!-- Gallery -->
+            <div class="gallery">
+                <div class="gallery-grid">
+
+                    <!--gallery content-->
+                    <div class="gallery-img">
+                        <img src="">
+                    </div>
+
+                </div>
+            </div>
+    </div>
+ </div>
+
+
+<!-- the footer brings me joy :3 -->
     <footer>
+        <p>Thank you!</p>
     </footer>
 </body>
 </html>
