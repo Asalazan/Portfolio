@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <script src="js/small_display.js"></script>
 
 <!--HERO SECTION-->
     <section class="intro">
@@ -43,16 +42,10 @@
     <!--ILLUSTRATION-->
     <details class="portfolio-catagory">
          <summary>Illustration</summary>
-            <div class="portfolio-grid">
+            <div class="portfolio-grid" id="illustration-container">
 
                 <!--illustration content-->
-                <div id="illustration-thumbnail-1" class="display">
-                    <a href="#illustration-1" class="btn">
-                        <img src="">
-                        <h2>Title</h2>
-                        <p>Project desc</p>
-                    </a>
-                </div>
+                <script src="js/illustration.js"></script>
 
             </div>
     </details>
@@ -91,7 +84,7 @@
 </section>
 
  <!--HIDDEN POP UP-->
-<div class="pop-up" id="illustration-1" role="dialog" aria-labelledby="portfolio-work-pop-up" aria-hidden="false">
+<div class="pop-up" id="illustration-example" role="dialog" aria-labelledby="portfolio-work-pop-up" aria-hidden="false">
     <div class="pop-up-content">
 
             <!-- pop up content-->

@@ -1,14 +1,8 @@
 [
   {
-    "title": "insert here",
-    "short-description": "insert here",
-    "long-description": "insert here",
-    "images": ["path goes here", "and here for more"],
-  },
-  {
-    "title": "insert here",
-    "short-description": "insert here",
-    "long-description": "insert here",
-    "images": ["path goes here", "and here for more"],
+    "title": "Alym",
+    "shortdescription": "Alym Concept Art",
+    "longdescription": "Concept art about alym",
+    "images": ["assets/illustration/Alym_ConceptArt1.jpg", "assets/illustration/Alym_ConceptArt2.jpg"]
   }
 ]
