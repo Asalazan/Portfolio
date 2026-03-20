@@ -1,14 +1,29 @@
 [
   {
-    "title": "insert here",
-    "shortdescription": "insert here",
+    "title": "VoiceBox",
+    "shortdescription": "Business card | Illsutrator",
     "longdescription": "insert here",
-    "images": ["path goes here", "and here for more"]
+    "images": ["assets/design/voicebox_cards.jpg"]
   },
+
   {
-    "title": "insert here",
-    "shortdescription": "insert here",
+    "title": "VoiceBox",
+    "shortdescription": "Media Post | Illustrator",
     "longdescription": "insert here",
-    "images": ["path goes here", "and here for more"]
+    "images": ["assets/design/voicebox_media-post1.jpg", "assets/design/voicebox_media-post2.jpg"]
+  },
+
+  {
+    "title": "The White Rabbit Circus",
+    "shortdescription": "Small Ad | Illustrator",
+    "longdescription": "insert here",
+    "images": ["assets/design/voicebox_media-post1.jpg"]
+  },
+
+    {
+    "title": "Queen of Clubs",
+    "shortdescription": "Poster | Illustrator",
+    "longdescription": "insert here",
+    "images": ["assets/design/queen-of-clubs_poster.jpg"]
   }
 ]

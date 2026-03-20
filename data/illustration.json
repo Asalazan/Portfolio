@@ -1,8 +1,103 @@
 [
+   {
+    "title": "Percived Savior",
+    "shortdescription": "2024 Publication | Procreate & Photoshop",
+    "longdescription": "text",
+    "images": ["assets/illustration/pesrity-dalhlhaira.jpg"]
+  },
+
   {
-    "title": "Alym",
-    "shortdescription": "Alym Concept Art",
+    "title": "Over Growth of Blame",
+    "shortdescription": "2023 Publication | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/overgrowth-of-blame.jpg"]
+  },
+
+   {
+    "title": "Long Days",
+    "shortdescription": "Composition Study | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/lane-composition-study.jpg"]
+  },
+
+  {
+    "title": "Posterized Portrait",
+    "shortdescription": "Shape Study | Illustrator",
+    "longdescription": "text",
+    "images": ["assets/illustration/self-portrait.jpg"]
+  },
+
+  {
+    "title": "Alym Alternate Outfits",
+    "shortdescription": "Concept Art | Procreate",
     "longdescription": "Concept art about alym",
     "images": ["assets/illustration/Alym_ConceptArt1.jpg", "assets/illustration/Alym_ConceptArt2.jpg"]
+  },
+
+   {
+    "title": "Forget me Forget-me-nots",
+    "shortdescription": "2023 Publication | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/forget-me-forget-me-nots.jpg", "assets/illustration/forget-me-forget-me-nots_sketch.jpg",
+     "assets/illustration/forget-me-forget-me-nots_blocking.jpg"]
+  },
+
+  {
+    "title": "Child of The Moon",
+    "shortdescription": "Character Illustration | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/krowen-illustration.jpg"]
+  },
+
+  {
+    "title": "Pools of Lingering Past",
+    "shortdescription": "2023 Publication | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/pools-of-the-past.jpg"]
+  },
+
+  {
+    "title": "Blurred Bow",
+    "shortdescription": "Character Painting | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/Fermillia-Akira_Painting.jpg"]
+  },
+
+  {
+    "title": "Krowen Outfit Breakdown",
+    "shortdescription": "Concept Art | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/Krowen_ConceptArt1.jpg", "assets/illustration/Krowen_ConceptArt2.jpg"]
+  },
+
+  {
+    "title": "Dynamic Posing",
+    "shortdescription": " Pose Study | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/Dynamic-figure_study4.jpg", "assets/illustration/Dynamic-figure_study1.jpg", "assets/illustration/Dynamic-figure_study2.jpg",
+  "assets/illustration/Dynamic-figure_study3.jpg", "assets/illustration/Dynamic-figure_study5.jpg", "assets/illustration/Dynamic-figure_study6.jpg",
+  "assets/illustration/Dynamic-figure_study7.jpg"]
+  },
+
+  {
+    "title": "Syrphid",
+    "shortdescription": "Character Illustration | Procreate",
+    "longdescription": "An illustration of Syrphid, and concept art behind her character design",
+    "images": ["assets/illustration/Syrphid_Illustration.jpg", "assets/illustration/Syrphid_ConceptArt1.jpg",
+    "assets/illustration/Syrphid_ConceptArt2.jpg", "assets/illustration/Syrphid_ConceptArt3.jpg"]
+  },
+
+  {
+    "title": "Clothing Life Drawing",
+    "shortdescription": "Clothing Study | Traditional",
+    "longdescription": "text",
+    "images": ["assets/illustration/Cloth_Study2.jpg", "assets/illustration/Cloth_Study1.jpg"]
+  },
+
+  {
+    "title": "R3-N4",
+    "shortdescription": "Concept Art | Procreate",
+    "longdescription": "text",
+    "images": ["assets/illustration/R3-N4_ConceptArt1.jpg", "assets/illustration/R3-N4_ConceptArt2.jpg"]
   }
 ]

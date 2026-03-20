@@ -1,14 +1,29 @@
 [
   {
-    "title": "insert here",
-    "shortdescription": "insert here",
+    "title": "KANA",
+    "shortdescription": "Animation | Photoshop & Premiere Pro",
+    "longdescription": "insert here",
+    "video": "path goes here"
+  },
+
+   {
+    "title": "Ikanaide",
+    "shortdescription": "Mixed Media | Procreate & Premiere Pro",
     "longdesdescriptioncription": "insert here",
     "video": "path goes here"
   },
-  {
-    "title": "insert here",
-    "shortdescription": "insert here",
-    "longdescription": "insert here",
+
+   {
+    "title": "The Badelynge Review",
+    "shortdescription": "Promotion Video | Premiere Pro",
+    "longdesdescriptioncription": "insert here",
+    "video": "path goes here"
+  },
+
+   {
+    "title": "Envy Hair Salon & Spa",
+    "shortdescription": "Promotion Video | Premiere Pro",
+    "longdesdescriptioncription": "insert here",
     "video": "path goes here"
   }
 ]
