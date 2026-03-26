@@ -32,12 +32,12 @@ let AddDesign = (data) => {
         `;
         container.appendChild(design);
 
-        const hiddenIllustration = document.createElement('div');
-        hiddenIllustration.id = `design-${i}`;
-        hiddenIllustration.className = "pop-up";
-        hiddenIllustration.setAttribute("role", "dialog");
-        hiddenIllustration.setAttribute("aria-labelledby", "portfolio-work-pop-up");
-        hiddenIllustration.setAttribute("aria-hidden", "false");
+        const hiddenDesign = document.createElement('div');
+        hiddenDesign.id = `design-${i}`;
+        hiddenDesign.className = "pop-up";
+        hiddenDesign.setAttribute("role", "dialog");
+        hiddenDesign.setAttribute("aria-labelledby", "portfolio-work-pop-up");
+        hiddenDesign.setAttribute("aria-hidden", "false");
 
         let gallery = ""
         let first = true
@@ -49,7 +49,7 @@ let AddDesign = (data) => {
             }
         })
 
-        hiddenIllustration.innerHTML = `
+        hiddenDesign.innerHTML = `
         <div class="pop-up-content">
             <div class="main-content">
                     <div class="main-content">
@@ -67,7 +67,7 @@ let AddDesign = (data) => {
                 </div>
         </div>
         `
-        document.body.appendChild(hiddenIllustration);
+        document.body.appendChild(hiddenDesign);
         i ++
     });
 }
