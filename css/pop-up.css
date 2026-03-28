@@ -22,6 +22,7 @@
 .pop-up h3, .pop-up p{
     color: #1B1B1B;
 }
+
 .pop-up {
   position: fixed;
   top: 0;
@@ -32,29 +33,42 @@
   justify-content: center;
   z-index: 10000;
   visibility: hidden;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(4px);
 }
 .pop-up img{
     border-radius:1rem ;
 }
 .pop-up-content {
-      transform: scale(0.8);
-  background: rgba(232, 226, 233, 0.95);
+  transform: scale(0.8);
+  background: rgba(230, 223, 230, 0.95);
   border-radius: 2rem;
-  padding: 2rem;
-  margin: 0rem 10rem;
+  padding: 1rem;
   display: inline-block;
- overflow-x:hidden;
- overflow-y: scroll;
+  width: 70rem;
+  max-height: fit-content;
+  max-width: 100%;
+}
+.content{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 70rem;
+    height: 52rem;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .main-content{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
-
+    display: inline-block;
+    columns: 2;
+    justify-content: center;
+    width: 70rem;
+    max-height: fit-content;
+    max-width: 100%;
 }
 .main-content img{
     max-width: 100%;
+    max-height: 60% ;
+    margin: 1rem 0rem;
 }
 iframe{
     border-radius: 1rem;
@@ -62,54 +76,48 @@ iframe{
     height: 800px;
 }
 .pop-up-text{
-    padding: 0rem 5rem;
-    max-width: 120ch;
+max-width: 90ch;
+max-height: fit-content;
+  margin: 0rem 2rem;
 }
 
+
 /*GALLERY (the gallery did NOT want to work with me)*/
-.gallery {
-    max-height: 30rem;
-    max-width: 125rem;
-    justify-content: center;
-}
 .gallery-grid{
   display: inline-block;
   flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
   columns: 3;
+  justify-content: space-evenly;
 }
-.gallery-img{
-    max-width: 100%;
-}
+
 .gallery img{
 max-width: 100%;
-margin: 0.5rem 0rem;
+margin: 0.3rem 0rem;
 }
 
 /*Text and buttons (just 1)*/
 .pop-up h3{
     font-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: 600;
-    font-style: normal;
-    line-height:5rem;
-    margin: 2rem 0rem;
-    font-size: 5rem;
+    line-height:3rem;
+    margin: 0rem;
+    font-size: 3rem;
 }
 .pop-up p{
     font-family: "Instrument Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.pop-up-close-btn img{
+    max-width: 35px
 }
 .pop-up-close-btn {
   text-decoration: none;
-  color: var(--light-clr);
-  padding: 15px 30px;
-  border-radius: 20px;
-  background: var(--primary-clr);
-  font-size: 3rem;
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
+  position: relative;
+  left: 1080px;
 }
 
 /*Snazzy stuff*/
@@ -127,19 +135,15 @@ margin: 0.5rem 0rem;
   transition: 0.2s ease-in-out;
 }
 /*the better version*/
-
 @media(prefers-color-scheme: dark){
     .pop-up-content{
-        background-color: rgba(20, 17, 24, 0.9);
+        background-color: rgba(20, 17, 24, 0.95);
         background-blend-mode: multiply;
     }
     .pop-up p, .pop-up h3{
         color: #f1e9dd;
     }
-    .logo{
-        filter: invert(90%) sepia(20%);
-    }
-    .btn-icons img{
+    .btn-icons img, .pop-up-close-btn img, .logo{
          filter: invert(92%) sepia(20%)
     }
 }

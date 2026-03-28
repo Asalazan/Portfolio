@@ -50,22 +50,25 @@ let AddIllustration = (data) => {
         })
 
         hiddenIllustration.innerHTML = `
-        <div class="pop-up-content">
-            <div class="main-content">
-                    <div class="main-content">
-                        <img src="${item.images[0]}">
-                        <div class="pop-up-text">
-                            <h3>${item.title}</h3>
-                            <p>${item.longdescription}</p>
-                            <a href=#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close">Back</a>
-                        </div>
+ <div class="pop-up-content">
+             <a href=#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close"><img src="assets/icons/close.png"></a>
+            <div class="content">
+                <div class="main-content">
+                    <img src="${item.images[0]}">
+                    <div class="pop-up-text">
+                        <h3>${item.title}</h3>
+                        <p>${item.longdescription}</p>
+                    </div>
                 </div>
+
                 <div class="gallery">
-                        <div class="gallery-grid">
-                            ${gallery}
-                        </div>
+                    <div class="gallery-grid">
+                        ${gallery}
+                    </div>
                 </div>
-        </div>
+
+            </div>
+    </div> 
         `
         document.body.appendChild(hiddenIllustration);
         i ++

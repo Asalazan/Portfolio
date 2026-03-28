@@ -50,22 +50,24 @@ let AddDesign = (data) => {
         })
 
         hiddenDesign.innerHTML = `
-        <div class="pop-up-content">
+ <div class="pop-up-content">
+            
             <div class="main-content">
-                    <div class="main-content">
-                        <img src="${item.images[0]}">
-                        <div class="pop-up-text">
-                            <h3>${item.title}</h3>
-                            <p>${item.longdescription}</p>
-                            <a href=#design-thumbnail-1" class="pop-up-close-btn" aria-label="close">Back</a>
-                        </div>
-                </div>
+                <img src="${item.images[0]}">
+                    <div class="pop-up-text">
+                        <h3>${item.title}</h3>
+                        <p>${item.longdescription}</p>
+                        <a href=#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close">Back</a>
+                    </div>
+            
                 <div class="gallery">
-                        <div class="gallery-grid">
-                            ${gallery}
-                        </div>
+                    <div class="gallery-grid">
+                        ${gallery}
+                    </div>
                 </div>
-        </div>
+
+            </div>
+    </div> 
         `
         document.body.appendChild(hiddenDesign);
         i ++

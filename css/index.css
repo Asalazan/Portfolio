@@ -1,4 +1,4 @@
-/*Fonts and color*/
+/*Fonts and color
 .konkhmer-sleokchher-regular {
   font-family: "Konkhmer Sleokchher", system-ui;
   font-weight: 400;
@@ -11,16 +11,20 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+}*/
+
 :root{
     --light-clr:#FDF7F0;
     --dark-clr:#1B1B1B;
     --primary-clr:#4B4259;
 }
 
+
+
+
 /*Body and text*/
 body{
-    background-color:rgb(221, 216, 221);
+    background-color: rgb(206, 198, 206);
     background-image: url(/assets/icons/bg-texture1.jpg);
     background-blend-mode:color-burn;
     background-size:cover;
@@ -31,23 +35,15 @@ a{
     color: var(--dark-clr);
     text-decoration: none;
     font-family: "Instrument Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
 }
 h1,h2{
     font-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: 600;
-    font-style: normal;
     margin: 0;
 }
 summary{
     font-size: 4rem;
     padding: 2rem;
      font-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: 400;
-    font-style:unset;
 }
 summary::marker{
     content:"◇";
@@ -57,12 +53,11 @@ details[open] > summary::marker{
 }
 p{  
     font-family: "Instrument Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
     margin: 0;
 }
+
+
+
 
 /*intro*/
 .intro{
@@ -81,16 +76,16 @@ p{
     max-width: 30%;
 }
 .intro h1{
-    line-height:8rem;
-    font-size: 8rem;
+    line-height:5.5rem;
+    font-size: 5.5rem;
     max-width: 100rem;
 }
 .intro p{
-    font-size: 3rem;
+    font-size: 2rem;
     max-width: 100rem;
 }
 .about-btn{
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 20px;
     padding: 20px;
     margin-right: 1rem;
@@ -103,31 +98,31 @@ p{
     margin: 1rem 2rem;
 }
 .btn-icons img{
-    max-width: 80px;
-    margin: 1rem;
+    max-width: 60px;
+    margin: 0.5rem;
 }
 
 /*Portfolio*/
 .portfolio{
-    margin: 0rem 20rem;
+    margin: 0rem 5rem;
 }
 details{
-    margin: 4rem 12rem;
+    margin: 4rem 5rem;
 }
 summary{
     border-bottom: 5px solid;
     padding: 0rem;
     cursor: pointer;
-    font-size: 5rem;
+    font-size: 4rem;
     max-height: fit-content;
 }
 details h2{
-    line-height: 2rem;
-    font-size: 3rem;
-    margin: 1rem 0.5rem;
+    line-height: 1rem;
+    font-size: 2rem;
+    margin: 1rem 0rem;
 }
 details p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 0.5rem;
 }
 .portfolio-grid{
@@ -136,7 +131,7 @@ details p{
 }
 .display{
     display: inline-block;
-    margin: 1rem;
+    margin: 0.5rem;
     border: rgb(27, 27, 27, 0) solid 10px;
 }
 .display img{
@@ -161,8 +156,8 @@ footer{
     color: var(--light-clr);
 }
 .btn-icons a img:hover{
-    transform: scale(1.02);
-    transition: 0.3s ease-in-out;
+    transform: scale(1.10);
+    transition: 0.1s ease-in-out;
 }
 details:hover{
     cursor: pointer;
@@ -181,7 +176,7 @@ details[open]{
 /*light and dark mode*/
 @media(prefers-color-scheme: dark){
     body{
-        background-color: rgba(26, 22, 29, 0.900);
+           background-color: rgba(12, 10, 14, 0.9);
         background-blend-mode: multiply;
     }
     h1,h2,p,a,details{

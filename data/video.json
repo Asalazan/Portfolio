@@ -1,9 +1,33 @@
 [
   {
-    "title": "KANA",
-    "shortdescription": "Animation | Photoshop & Premiere Pro",
+    "title": "Ikanaide",
+    "shortdescription": "Music Video | Procreate & Premiere Pro",
     "longdescription": "insert here",
     "thumbnail": "/assets/video/Ikanaide.jpg",
     "video": "https://www.youtube.com/embed/FHDv4JNvNXs?si=GAyeB_2jq-qPkjmj"
+  },
+
+  { "title": "The Badelynge Review",
+    "shortdescription": "Promotional Video | Premiere Pro",
+    "longdescription": "insert here",
+    "thumbnail": "assets/video/Badelynge-Review.jpg",
+    "video": "https://www.youtube.com/embed/FHDv4JNvNXs?si=GAyeB_2jq-qPkjmj"
+  },
+
+   { "title": "KANA",
+    "shortdescription": "Animation | Photoshop & Premiere Pro",
+    "longdescription": "insert here",
+    "thumbnail": "assets/video/KANA.jpg",
+    "video": "https://www.youtube.com/embed/FHDv4JNvNXs?si=GAyeB_2jq-qPkjmj"
+  },
+     { "title": "Envy Hair Salon & Spa",
+    "shortdescription": "Promotional Video | Photoshop & Premiere Pro",
+    "longdescription": "insert here",
+    "thumbnail": "assets/video/Envy-hair-salon.jpg",
+    "video": "https://www.youtube.com/embed/FHDv4JNvNXs?si=GAyeB_2jq-qPkjmj"
   }
+
+
+ 
 ]
+
