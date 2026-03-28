@@ -31,24 +31,27 @@ let AddVideo = (data) => {
             </a>
         `;
         container.appendChild(video);
-
+        
         const hiddenVideo = document.createElement('div');
         hiddenVideo.id = `video-${i}`;
         hiddenVideo.className = "pop-up";
         hiddenVideo.setAttribute("role", "dialog");
         hiddenVideo.setAttribute("aria-labelledby", "portfolio-work-pop-up");
-        hiddenVideo.setAttribute("aria-hidden", "false");
+        hiddenVideo.setAttribute("aria-hidden", "false")
 
         hiddenVideo.innerHTML = `
         <div class="pop-up-content">
+            <a href=#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close"><img src="assets/icons/close.png"></a>
+           
+            <div clas=content>
             <div class="main-content">
-            <iframe width="1200" height="630" src="${item.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="600" height="415" src="${item.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="pop-up-text">
                     <h3>${item.title}</h3>
                     <p>${item.longdescription}</p>
-                    <a href=#video-thumbnail-1" class="pop-up-close-btn" aria-label="close">Back</a>
                 </div>
             </div>
+
         </div>
         `
         document.body.appendChild(hiddenVideo);
