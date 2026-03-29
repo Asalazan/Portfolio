@@ -43,12 +43,15 @@ let AddVideo = (data) => {
         <div class="pop-up-content">
             <a href=#illustration-thumbnail-1" class="pop-up-close-btn" aria-label="close"><img src="assets/icons/close.png"></a>
            
-            <div clas=content>
+            <div class=content>
             <div class="main-content">
-                <iframe width="600" height="415" src="${item.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video">
+                    <iframe src="${item.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>  
                 <div class="pop-up-text">
                     <h3>${item.title}</h3>
                     <p>${item.longdescription}</p>
+                    
                 </div>
             </div>
 

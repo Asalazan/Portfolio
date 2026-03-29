@@ -1,4 +1,4 @@
-/*Fonts and color
+/*Fonts
 .konkhmer-sleokchher-regular {
   font-family: "Konkhmer Sleokchher", system-ui;
   font-weight: 400;
@@ -13,48 +13,42 @@
     "wdth" 100;
 }*/
 
+
+
+
+/*BODY TEXT & COLOR*/
+
 :root{
     --light-clr:#FDF7F0;
     --dark-clr:#1B1B1B;
-    --primary-clr:#4B4259;
-}
-
-
-
-
-/*Body and text*/
+    --primary-clr:#4B4259;}
 body{
     background-color: rgb(206, 198, 206);
     background-image: url(/assets/icons/bg-texture1.jpg);
     background-blend-mode:color-burn;
     background-size:cover;
-    color: var(--dark-clr);
-}
-
+    color: var(--dark-clr);}
 a{
     color: var(--dark-clr);
     text-decoration: none;
-    font-family: "Instrument Sans", sans-serif;
-}
+    font-family: "Instrument Sans", sans-serif;}
 h1,h2{
     font-family: "Konkhmer Sleokchher", system-ui;
-    margin: 0;
-}
-
+    margin: 0;}
 summary::marker{
-    content:"◇";
-}
+    content:"◇";}
 details[open] > summary::marker{
-    content:"◆";
-}
+    content:"◆";}
 p{  
     font-family: "Instrument Sans", sans-serif;
-    margin: 0;
-}
+    margin: 0;}
 summary{
-    font-family: "Konkhmer Sleokchher", system-ui;
-}
+    font-family: "Konkhmer Sleokchher", system-ui;}
 
+
+
+
+/*STYLE & RESPONSIVE WORK*/
 
 @media only screen and (min-width: 300px){
     
@@ -312,7 +306,6 @@ footer{
 }
 }
 
-
 @media only screen and (min-width: 1800px){
 .intro{
     margin: 5rem 10rem;
@@ -397,34 +390,34 @@ footer{
 
 
 
-/*the snazzy stuff*/
+
+
+
+/*ANIMATION & TRANSITIONS*/
 .about-btn:hover{
     background-color: var(--primary-clr);
     transform: scale(1.10);
     transition: 0.1s ease-in-out;
-    color: var(--light-clr);
-}
+    color: var(--light-clr);}
 .btn-icons a img:hover{
     transform: scale(1.10);
-    transition: 0.1s ease-in-out;
-}
+    transition: 0.1s ease-in-out;}
 details:hover{
     cursor: pointer;
     transform: scale(1.02);
-    transition: 0.2s ease-in-out;
-}
+    transition: 0.2s ease-in-out;}
 details[open]{
-     transform: scale(1.02);
-}
-
+     transform: scale(1.02);}
 .display:hover{
     transform: scale(1.02);
-    transition: 0.1s ease-in-out;
-}
+    transition: 0.1s ease-in-out;}
 
 
 
-/*light and dark mode*/
+
+
+/*LIGHT & DARK MODE*/
+
 @media(prefers-color-scheme: dark){
     body{
            background-color: rgba(12, 10, 14, 0.9);
@@ -438,6 +431,5 @@ details[open]{
     }
     .btn-icons img{
          filter: invert(92%) sepia(20%)
-    }
-}
+    }}
 
