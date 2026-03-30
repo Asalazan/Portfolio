@@ -5,102 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annalicia Salazar</title>
-    <link href="/src/output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/pop-up.css" rel="stylesheet">
 </head>
 
-<body class="bg-light text-dark font-body bg-[url('/assets/icons/bg-texture.jpg')] bg-cover">
+<body>
 
-  <!-- Intro Section -->
-  <section class="flex flex-col lg:flex-row items-center justify-center my-40 lg:my-60 px-6 lg:px-24">
-    <img src="/assets/icons/personal-logo.png"
-         class="border-r-4 border-dark p-8 max-w-full lg:max-w-[30%] mb-8 lg:mb-0" />
+<!--HERO SECTION-->
+    <section class="intro">
+        <img class="logo" src="/assets/icons/personal-logo.png">
+        <div class="intro-section">
 
-    <div class="lg:ml-12 text-center lg:text-left">
-      <h1 class="font-heading text-5xl md:text-7xl lg:text-[8rem] leading-tight">
-        Welcome!<br>I'm Annalicia Salazar
-      </h1>
-      <p class="text-xl md:text-2xl lg:text-3xl mt-4">
-        Graphic & Web Designer | Illustrator | Visual Arts Student
-      </p>
+            <div  class="intro-text">
+                <h1>Welcome!<br>I'm Annalicia Salazar</h1>
+                <p>Graphic | Web | Illustration</p>
+            </div>
+            <!--these may change idk-->
+            <div class="btn-icons">
+                <a class="about-btn" href="/about-me.html"> About me</a>
+                <div class="small-icon">
+                <a title="LinkedIn" href=":3"><img src="/assets/icons/linkedin.png"></a>
+                <a title="YouTube" href="https://www.youtube.com/@AnnaliciaSalazar"><img src="/assets/icons/youtube.png"></a>
+                <a title="GitHub" href="https://github.com/Asalazan"><img src="/assets/icons/github.png"></a>
+                <a Title="Email" href="mailto:annaliciak7salazan@gmail.com"><img src="/assets/icons/email.png"></a>
+                </div>
+            </div>
 
-      <a href="/about-me.html"
-         class="inline-block text-xl md:text-2xl lg:text-2xl rounded-2xl px-6 py-4 bg-primary text-light mt-8">
-        About me
-      </a>
-    </div>
-  </section>
+        </div>
+    </section>
 
-  <!-- Portfolio Sections -->
+<!--PORTFOLIO SECTION-->
+    <section class="portfolio">
 
-  <!-- Illustration -->
-  <details class="max-w-7xl mx-auto my-16 px-6">
-    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
-      Illustration
-    </summary>
+    <!--ILLUSTRATION-->
+    <details class="portfolio-catagory">
+         <summary>Illustration</summary>
+            <div class="portfolio-grid" id="illustration-container">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="/assets/illustration/forget-me-forget-me-nots.jpg" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Forget me Forget-me-nots</h2>
-        <p class="text-lg">Digital Art | Procreate | Published</p>
-      </div>
+                <!--illustration content-->
+                <script src="js/illustration.js"></script>
 
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="/assets/illustration/lane-composition-study.jpg" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
-        <p class="text-lg">Project desc</p>
-      </div>
+            </div>
+    </details>
 
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="/assets/illustration/pesrity-dalhlhaira.jpg" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
-        <p class="text-lg">Project desc</p>
-      </div>
+    <!--DESIGN-->
+     <details class="portfolio-catagory">
+         <summary>Design</summary>
+            <div class="portfolio-grid" id="design-container">
 
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="/assets/illustration/pools-of-the-past.jpg" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
-        <p class="text-lg">Project desc</p>
-      </div>
+                <!--design content-->
+                <script src="js/design.js"></script>
 
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="/assets/illustration/overgrowth-of-blame.jpg" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Project Title</h2>
-        <p class="text-lg">Project desc</p>
-      </div>
-    </div>
-  </details>
+            </div>
+    </details> 
 
-  <!-- Design -->
-  <details class="max-w-7xl mx-auto my-16 px-6">
-    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
-      Design
-    </summary>
+    <!--VIDEO-->
+    <details class="portfolio-catagory">
+         <summary>Video</summary>
+            <div class="portfolio-grid" id="video-container">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Title</h2>
-        <p class="text-lg">Medium | Software | Something</p>
-      </div>
-    </div>
-  </details>
+                <!--video content-->
+                <script src="js/video.js"></script>
 
-  <!-- Video -->
-  <details class="max-w-7xl mx-auto my-16 px-6">
-    <summary class="cursor-pointer border-b-4 border-primary text-3xl md:text-4xl lg:text-5xl font-heading pb-4">
-      Video
-    </summary>
+            </div>
+    </details> 
+</section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-      <div class="group transition duration-200 hover:scale-[1.02]">
-        <img src="" class="rounded-2xl w-full" />
-        <h2 class="font-heading text-2xl mt-4">Title</h2>
-        <p class="text-lg">Medium | Software | Something</p>
-      </div>
-    </div>
-  </details>
-
+<!-- the footer brings me joy :3 -->
+    <footer>
+        <p>Thank you!</p>
+    </footer>
 </body>
 
 </html>

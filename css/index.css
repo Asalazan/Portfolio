@@ -1,0 +1,435 @@
+/*Fonts
+.konkhmer-sleokchher-regular {
+  font-family: "Konkhmer Sleokchher", system-ui;
+  font-weight: 400;
+  font-style:unset;
+}
+.instrument-sans-regular {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
+
+
+
+
+/*BODY TEXT & COLOR*/
+
+:root{
+    --light-clr:#FDF7F0;
+    --dark-clr:#1B1B1B;
+    --primary-clr:#4B4259;}
+body{
+    background-color: rgb(206, 198, 206);
+    background-image: url(/assets/icons/bg-texture1.jpg);
+    background-blend-mode:color-burn;
+    background-size:cover;
+    color: var(--dark-clr);}
+a{
+    color: var(--dark-clr);
+    text-decoration: none;
+    font-family: "Instrument Sans", sans-serif;}
+h1,h2{
+    font-family: "Konkhmer Sleokchher", system-ui;
+    margin: 0;}
+summary::marker{
+    content:"◇";}
+details[open] > summary::marker{
+    content:"◆";}
+p{  
+    font-family: "Instrument Sans", sans-serif;
+    margin: 0;}
+summary{
+    font-family: "Konkhmer Sleokchher", system-ui;}
+
+
+
+
+/*STYLE & RESPONSIVE WORK*/
+
+@media only screen and (min-width: 300px){
+    
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.intro-text{
+    margin: 0rem;
+    text-align: center;
+}
+.logo {
+    margin-bottom: 2rem;
+    max-width: 15rem;
+}
+.intro h1{
+    line-height:1.5rem;
+    font-size: 1.2rem;
+    max-width: 100rem;
+}
+.intro p{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+.about-btn{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2rem;
+    margin-bottom: 0;
+    background-color: var(--primary-clr);
+    color: #FDF7F0;
+}
+.small-icon{
+    display: flex;
+    align-items: center;
+}
+.btn-icons{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 2rem;
+    margin-top: 0.5rem;
+}
+.btn-icons img{
+    max-width: 25px;
+    margin: 0.3rem;
+}
+
+/*Portfolio*/
+.portfolio{
+    margin: 0rem 1rem;
+}
+details{
+    margin: 0;
+}
+summary{
+    border-bottom: 2px solid;
+    padding: 0rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    max-height: fit-content;
+}
+details h2{
+    font-size: 0rem;
+}
+details p{
+    font-size: 0rem;
+}
+.portfolio-grid{
+    columns: 2;
+    column-gap: 0.4rem;
+    margin: 1rem 0rem;
+}
+.display{
+    display: inline-block;
+}
+.display img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: var(--dark-clr);
+    font-size: 1rem;
+}
+}
+
+@media only screen and (min-width: 440px){
+.intro h1{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+summary{
+    font-size: 2rem;
+}
+.intro p{
+    font-size: 1.2rem;
+    margin: 0.2rem;
+}
+.about-btn{
+    font-size: 1.2rem;
+}
+.btn-icons{
+    margin: 1rem;
+    max-width: 20rem;
+}
+.btn-icons img{
+    max-width: 35px;
+    margin: 0.5rem;
+}
+}
+
+@media only screen and (min-width: 730px){
+
+.intro-section{
+    margin-left: 2rem;
+    display: block;
+    align-content: center;
+}
+.intro-text{
+    text-align: left;
+    margin-bottom: 1rem ;
+}
+
+.logo {
+    margin: 0;
+    max-width: 15rem;
+    padding-right: 2rem;
+    border-right: solid 3px;
+}
+
+.about-btn{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+
+.small-icon{
+    display: flex;
+    align-items: none;
+}
+
+.btn-icons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    margin: 0rem;
+}
+.btn-icons img{
+    max-width: 35px;
+    margin: 0.5rem;
+}
+.portfolio{
+    margin:5rem 5rem;
+}
+
+summary{
+    border-bottom: 2px solid;
+    padding: 0rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    max-height: fit-content;
+}
+details h2{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+details p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.portfolio-grid{
+    columns: 2;
+    column-gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+.display{
+    display: inline-block;
+}
+.display img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: var(--dark-clr);
+    font-size: 1rem;
+}
+}
+
+@media only screen and (min-width: 1200px){
+.intro h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.intro{
+    margin: 10rem 0rem;
+}
+summary{
+    font-size: 3rem;
+}
+
+.intro-text p{
+    font-size: 2rem;
+}
+
+.about-btn{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 0;
+}
+
+.small-icon{
+    display: flex;
+    align-items: none;
+}
+
+.btn-icons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    margin: 0rem;
+}
+.btn-icons img{
+    max-width: 40px;
+    margin: 0.5rem;
+}
+.portfolio{
+    margin: 0rem 5rem;
+}
+.portfolio-grid{
+    columns: 3;
+    column-gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+footer{
+    font-size: 2rem;
+}
+}
+
+@media only screen and (min-width: 1800px){
+.intro{
+    margin: 5rem 10rem;
+    margin-bottom: 15rem;
+}
+.intro-text{
+    margin: 1rem 0rem 4rem 2rem;
+}
+.logo {
+    border-right: 5px solid;
+    padding: 3rem;
+    max-width: 30%;
+}
+.intro h1{
+    line-height:5.5rem;
+    font-size: 5rem;
+    max-width: 100rem;
+}
+.intro p{
+    font-size: 3rem;
+    max-width: 100rem;
+}
+.about-btn{
+    font-size: 2rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+.btn-icons{
+    display: flex;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+.btn-icons img{
+    max-width: 60px;
+    margin: 0.5rem;
+}
+
+/*Portfolio*/
+details{
+    margin: 0rem 5rem;
+}
+summary{
+    border-bottom: 5px solid;
+    padding: 0rem;
+    cursor: pointer;
+    font-size: 4rem;
+    max-height: fit-content;
+}
+details h2{
+    line-height: 1rem;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+details p{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+.portfolio-grid{
+    columns: 3;
+    column-gap: 0rem;
+}
+.display{
+    display: inline-block;
+    border: rgb(27, 27, 27, 0) solid 10px;
+}
+.display img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    padding: 5rem;
+    color: var(--dark-clr);
+    font-size: 4rem;
+}
+}
+
+
+
+
+
+
+/*ANIMATION & TRANSITIONS*/
+.about-btn:hover{
+    background-color: var(--primary-clr);
+    transform: scale(1.10);
+    transition: 0.1s ease-in-out;
+    color: var(--light-clr);}
+.btn-icons a img:hover{
+    transform: scale(1.10);
+    transition: 0.1s ease-in-out;}
+details:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;}
+details[open]{
+     transform: scale(1.02);}
+.display:hover{
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;}
+
+
+
+
+
+/*LIGHT & DARK MODE*/
+
+@media(prefers-color-scheme: dark){
+    body{
+           background-color: rgba(12, 10, 14, 0.9);
+        background-blend-mode: multiply;
+    }
+    h1,h2,p,a,details{
+        color: #f1e9dd;
+    }
+    .logo{
+        filter: invert(90%) sepia(20%);
+    }
+    .btn-icons img{
+         filter: invert(92%) sepia(20%)
+    }}
+
