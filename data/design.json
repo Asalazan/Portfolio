@@ -1,29 +1,29 @@
 [
   {
     "title": "VoiceBox",
-    "shortdescription": "Business card | Illsutrator",
-    "longdescription": "insert here",
+    "shortdescription": "Business card | Illustrator",
+    "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
     "images": ["assets/design/voicebox_cards.jpg"]
   },
 
   {
     "title": "VoiceBox",
     "shortdescription": "Media Post | Illustrator",
-    "longdescription": "insert here",
+    "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
     "images": ["assets/design/voicebox_media-post1.jpg", "assets/design/voicebox_media-post2.jpg"]
   },
 
   {
     "title": "The White Rabbit Circus",
-    "shortdescription": "Small Ad | Illustrator, Photoshop & Procreate",
-    "longdescription": "insert here",
+    "shortdescription": "Small Ad | Illustrator, Photoshop, Procreate & InDesign",
+    "longdescription": "Medium & Tools: Digital, Illustrator, Photoshop, Procreate, InDesign <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
     "images": ["assets/design/white-rabbit_ad1.jpg"]
   },
 
     {
     "title": "Queen of Clubs",
-    "shortdescription": "Poster | Photoshop",
-    "longdescription": "insert here",
+    "shortdescription": "Poster | Photoshop & Procreate",
+    "longdescription": "Medium & Tools: Print, Photoshop, Procreate <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
     "images": ["assets/design/queen-of-clubs_poster.jpg"]
   }
 ]

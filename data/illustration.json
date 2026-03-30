@@ -1,68 +1,86 @@
-[
+[  
+  {"title": "",
+    "shortdescription": "",
+    "longdescription": "",
+    "images": ["", ""]
+  },
+
   {"title": "Percived Savior",
         "shortdescription": "2024 Publication | Procreate & Photoshop",
-        "longdescription": "Medium & Software: Digital, Procreate, Photoshop <p>Dimensions: 3900 x 5700 px / 13 x 19 in</p> <p>Perceived Savior is a standalone piece depicting the power dynamic of two original characters, showing how they perceive both themselves and the other; with inspiration taken from the phrase “hear no evil, see no evil, speak no evil” , derived from the three wise monkeys and the four horsemen of the apocalypse.</p> <p> This piece was created as a printed final and was later selected for publication for the Badglynge Review in 2024.</p>",
+
+        "longdescription": "Medium & Tools: Digital, Procreate, Photoshop <p>Dimensions: 3900 x 5700 px / 13 x 19 in</p> <p>Perceived Savior is a standalone piece depicting the power dynamic of two original characters, showing how they perceive both themselves and the other; with inspiration taken from the phrase “hear no evil, see no evil, speak no evil” , derived from the three wise monkeys and the four horsemen of the apocalypse.</p> <p> This piece was created as a printed final and was later selected for publication for the Badglynge Review in 2024.</p>",
+
         "images": ["assets/illustration/pesrity-dalhlhaira.jpg"]
   },
 
   {"title": "Over Growth of Blame",
       "shortdescription": "2023 Publication | Procreate",
-      "longdescription": "Medium & Software: Digital, Procreate, Photoshop <p>Dimensions: 1640 x 2360 px</p> <p> Overgrowth of Blame is inspired by an original character and their perception over their past. This piece was created with the intention of showcasing the act of self-blame and the destructive nature with the guilt and shame it brings when left to grow. </p> <p> Overgrowth was originally indented as a purely digital work, but was selected for publication for The Badglynge Review in 2023 </p> ",
+      
+      "longdescription": "Medium & Tools: Digital, Procreate, Photoshop <p> Dimensions: 1640 x 2360 px/ 6.21 x 8.93 in </p> <p>This is inspired by an original character and their perception over their past. This piece was created with the intention of showcasing the act of self-blame and the destructive nature with the guilt and shame it brings when left to grow.</p><p>Overgrowth was originally indented as a purely digital work, but was selected for publication for The Badglynge Review in 2023.</p> ",
+      
       "images": ["assets/illustration/overgrowth-of-blame.jpg"]
   },
 
    {"title": "Long Days",
       "shortdescription": "Composition Study | Procreate",
-      "longdescription": "<p>Medium & Software: Digital, Procreate</p> <p> Dimensions: 2133 x 1193 px </p> <p> Long Days is a digital piece made for value, compositional research, and practice using a perceptual grid and formal analysis. </p> ",
+
+      "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 2133 x 1193 px </p> <p> Long Days is a digital piece made for value, compositional research, and practice using a perceptual grid and formal analysis. </p> ",
+
       "images": ["assets/illustration/lane-composition-study.jpg"]
   },
 
   {"title": "Posterized Portrait",
     "shortdescription": "Shape Study | Illustrator",
-    "longdescription": "text",
+
+    "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: 1728 x 1296 px </p> <p> A self-portrait based off of a posterized image, intended to focus on color, stylization, and form. </p>",
+
     "images": ["assets/illustration/self-portrait.jpg"]
   },
 
   {"title": "Alym Alternate Outfits",
     "shortdescription": "Concept Art | Procreate",
-    "longdescription": "Concept art about alym",
+    "longdescription": "Medium & Tools: Digital, Procreate <p>Dimensions: 1101 x 469 px</p> <p>Conceptual art for an original character focused on designing different styles of dressing for each nation within their world, using the same items styled with limited additions of extra clothing and accessories allowed.",
     "images": ["assets/illustration/Alym_ConceptArt1.jpg", "assets/illustration/Alym_ConceptArt2.jpg"]
   },
 
    {"title": "Forget me Forget-me-nots",
     "shortdescription": "2023 Publication | Procreate",
-    "longdescription": "<p>Medium & Software: Digital, Procreate, Photoshop </p><p> Dimensions:  2550 x 3300px/9.65 x 12.5 in </p> <p> Heavily inspired by the concept of identity and Scopophobia, the fear of being perceived, with the contrasting idea often associated with forget-me-not flowers, remembrance and connection. </p> <p> This piece was originally indented as a purely digital work, but was selected for publication for The Badglynge Review in 2023 </p> ",
+    "longdescription": "<p>Medium & Tools: Digital, Procreate, Photoshop </p><p> Dimensions: 2550 x 3300 px/9.65 x 12.5 in </p> <p> Heavily inspired by the concept of identity and Scopophobia, the fear of being perceived, with the contrasting idea often associated with forget-me-not flowers, remembrance and connection. </p> <p> This piece was originally indented as a purely digital work, but was selected for publication for The Badglynge Review in 2023.</p> ",
     "images": ["assets/illustration/forget-me-forget-me-nots.jpg", "assets/illustration/forget-me-forget-me-nots_sketch.jpg",
      "assets/illustration/forget-me-forget-me-nots_blocking.jpg"]
   },
 
   {"title": "Child of The Moon",
-    "shortdescription": "Character Illustration | Procreate",
-    "longdescription": "text",
+    "shortdescription": "Character Illustration | Procreate & Photoshop",
+    "longdescription": "Medium & Tools: Digital, Procreate, Photoshop <p> Dimensions: 3000 x 1800 px/10 x 6 in </p> <p>An illustrative piece for print, based off an original character focused on a simplistic style and texture.</p>",
     "images": ["assets/illustration/krowen-illustration.jpg"]
   },
 
   {"title": "Pools of Lingering Past",
     "shortdescription": "2023 Publication | Procreate",
-    "longdescription": "text",
+
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 2300 x 1839 px/7.67 x 6.13 in </p> <p>based off an original character’s story and intended to showcase the feeling of dissociation, being weighed down by lingering thoughts and emotions from past moments.</p><p>This was originally intended as a purely digital work but was selected for publication for The Badelynge Review in 2023.</p> ",
+
     "images": ["assets/illustration/pools-of-the-past.jpg"]
   },
 
   {"title": "Blurred Bow",
     "shortdescription": "Character Painting | Procreate",
-    "longdescription": "text",
+
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: Unlisted </p> <p>This is a rough character painting aiming to depict the dynamic and power behind the two original characters. The timing of this illustration being around the time these characters meet, having this piece become a major depiction for their characters' future development.</p>",
+
     "images": ["assets/illustration/Fermillia-Akira_Painting.jpg"]
   },
 
   {"title": "Krowen Outfit Breakdown",
     "shortdescription": "Concept Art | Procreate",
-    "longdescription": "text",
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 1363 x 1054 px </p> <p>Concept art of a character for a D&D campaign, made to break down the characters clothing for accurate representation of how they dress and the layers behind the outfit.</p>",
     "images": ["assets/illustration/Krowen_ConceptArt1.jpg", "assets/illustration/Krowen_ConceptArt2.jpg"]
   },
 
   {"title": "Dynamic Posing",
     "shortdescription": " Pose Study | Procreate",
-    "longdescription": "Text",
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 2360 x 1640 px </p> <p>A study focused on form and motion, little focus on detail. Poses were referenced from still frames pulled from various dance videos to capture poses in active, organic motion.</p>",
     "images": ["assets/illustration/Dynamic-figure_study4.jpg", "assets/illustration/Dynamic-figure_study1.jpg", "assets/illustration/Dynamic-figure_study2.jpg",
   "assets/illustration/Dynamic-figure_study3.jpg", "assets/illustration/Dynamic-figure_study5.jpg", "assets/illustration/Dynamic-figure_study6.jpg",
   "assets/illustration/Dynamic-figure_study7.jpg"]
@@ -70,20 +88,20 @@
 
   {"title": "Syrphid",
     "shortdescription": "Character Illustration | Procreate",
-    "longdescription": "An illustration of Syrphid, and concept art behind her character design",
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 1640 x 2726 px </p> <p>An illustration of an original character paired with the concept art and sketches behind the character design, following stric rules behind the world and story this charcater lives in, from their wrapped shoe, buttoned sleeves, and hair beads.</p>",
     "images": ["assets/illustration/Syrphid_Illustration.jpg", "assets/illustration/Syrphid_ConceptArt1.jpg",
     "assets/illustration/Syrphid_ConceptArt2.jpg", "assets/illustration/Syrphid_ConceptArt3.jpg"]
   },
 
   {"title": "Clothing Life Drawing",
     "shortdescription": "Clothing Study | Traditional",
-    "longdescription": "text",
+    "longdescription": "Medium & Tools: Traditional, Pencil on Paper <p> Dimensions: Unlisted </p> <p>A live drawing exercise with a focus on the model’s clothing and the fabrics interaction with the environment. Both pieces were drawn within the same session, with 20 minutes given to both pieces.</p>",
     "images": ["assets/illustration/Cloth_Study2.jpg", "assets/illustration/Cloth_Study1.jpg"]
   },
 
   {"title": "R3-N4",
     "shortdescription": "Concept Art | Procreate",
-    "longdescription": "text",
+    "longdescription": "Medium & Tools: Digital, Procreate <p> Dimensions: 1025 x 994 px </p> <p>Concept art for a Fallout: The Roleplaying Game character, taking creative liberties and a more humanoid approach to Robobrains to better fit the story intended for this character within the Fallout world.</p>",
     "images": ["assets/illustration/R3-N4_ConceptArt1.jpg", "assets/illustration/R3-N4_ConceptArt2.jpg"]
   }
 ]
