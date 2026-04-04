@@ -47,12 +47,13 @@ let AddVideo = (data) => {
             <div class="main-content">
                 <div class="video">
                     <iframe src="${item.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>  
-                <div class="pop-up-text">
-                    <h3>${item.title}</h3>
-                    <p>${item.longdescription}</p>
-                    
-                </div>
+                 
+                    <div class="pop-up-text">
+                        <h3>${item.title}</h3>
+                        <p>${item.longdescription}</p>
+                        
+                    </div>
+                </div> 
             </div>
 
         </div>

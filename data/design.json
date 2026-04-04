@@ -1,34 +1,39 @@
 [
-  {
-    "title": "VoiceBox",
+  {"title": "VoiceBox",
     "shortdescription": "Business card | Illustrator",
+
     "longdescription": "Medium & Tools: Print, Illustrator <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
+
     "images": ["assets/design/voicebox_cards.jpg"]
   },
 
-  {
-    "title": "VoiceBox",
+  {"title": "VoiceBox",
     "shortdescription": "Media Post | Illustrator",
-    "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: Unlisted</p> <p>This was a promotional project focused on bringing new users interested in the voice acting industry, looking for a place to learn and experience more of the voice acting world, while listing the exacting goals VoiceBox aims to fill, sticking with the the same fonts and utilizing the overall shape of the VoiceBox logo as a recurring and varied pattern to visually connect the ad back to the brand through more than just type and ad a full but clean visual appeal.</p></p><p>VoiceBox is a company focused on helping people take their first step into the voice acting world, by educating and providing the basic necessities for any aspiring voice actor to their home.</p>",
+
+    "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: Unlisted</p> <p>This was a promotional project focused on bringing new users interested in the voice acting industry, looking for a place to learn and experience more of the voice acting world, while listing the exacting goals VoiceBox aims to fill, sticking with the the same fonts and utilizing the overall shape of the VoiceBox logo as a recurring and varied pattern to visually connect the ad back to the brand through more than just type and ad a full but clean visual appeal.</p><p>VoiceBox is a company focused on helping people take their first step into the voice acting world, by educating and providing the basic necessities for any aspiring voice actor to their home.</p>",
+
     "images": ["assets/design/voicebox_media-post1.jpg"]
   },
-  {
-    "title": "VoiceBox",
+  {"title": "VoiceBox",
     "shortdescription": "Media Post | Illustrator",
+
     "longdescription": "Medium & Tools: Digital, Illustrator <p>Dimensions: Unlisted</p> <p>This was a promotional project focused on promoting an upcoming event for Voice Box Members looking for an opportunity to connect and be seen within the industry, sticking with the the same font and utilizing the overall shape of the VoiceBox logo as a recurring and varied pattern to visually connect the ad back to the brand through more than the type and ad a full but clean visual appeal.</p><p>VoiceBox is a company focused on helping people take their first step into the voice acting world, by educating and providing the basic necessities for any aspiring voice actor to their home.</p>",
+    
     "images": ["assets/design/voicebox_media-post2.jpg"]
   },
-  {
-    "title": "The White Rabbit Circus",
+  {"title": "The White Rabbit Circus",
     "shortdescription": "Small Ad | Illustrator, Photoshop, Procreate & InDesign",
+
     "longdescription": "Medium & Tools: Print, Illustrator, Photoshop, Procreate, InDesign <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
+    
     "images": ["assets/design/white-rabbit_ad1.jpg"]
   },
 
-    {
-    "title": "Queen of Clubs",
+    {"title": "Queen of Clubs",
     "shortdescription": "Poster | Photoshop & Procreate",
-    "longdescription": "Medium & Tools: Print, Photoshop, Procreate <p>Dimensions: Unlisted</p> <p>This piece is new, description coming soon...</p>",
+
+    "longdescription": "Medium & Tools: Print, Photoshop, Procreate <p>Dimensions: Unlisted</p> <p>This is a poster design promoting a fictional event that takes place with in a wonderland based setting. Inspiration behind this design is pulled from from original character and  environmental concept art, behind a long running narrative project of my own, wanting to bring a subtle surrealness to the poster, feeling more out of place and more in character for the world a poster like this would be made and distributed in.</p>",
+    
     "images": ["assets/design/queen-of-clubs_poster.jpg"]
   }
 ]

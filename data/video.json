@@ -1,28 +1,36 @@
 [
-  {
-    "title": "Ikanaide",
+  { "title": "Ikanaide",
     "shortdescription": "Music Video | Procreate & Premiere Pro",
-    "longdescription": "Medium & Tools: Mix media, Premier pro, Procreate, FlipAClip <p>Equipment: Samsung S22+, ipad Air, Dell Inspiron 7506 2n1</p><p>This video was a passion project mixing my love for the song, the artist behind this specific song cover and the animation style utilized in Yorushika’s music video of “Say it”, blending them together within a rough 2-3 week time frame.</p><p>Each clip within this video was taken from real life locations, while the animation was drawn in a simple frame by frame style in 3fps. Everything was then put together, refined, and edited with the cut version of the Song.</p> ",
+
+    "longdescription": "Medium & Tools: Digital, 2D Animation, Premier pro, Procreate, FlipAClip <p>Equipment: Samsung S22+, ipad Air, Dell Inspiron 7506 2n1</p><p>This video was a passion project mixing my love for the song, the artist behind this specific song cover and the animation style utilized in Yorushika’s music video of “Say it”, blending them together within a rough 2-3 week time frame.</p><p>Each clip within this video was taken from real life locations, while the animation was drawn in a simple frame by frame style in 3fps. Everything was then put together, refined, and edited with the cut version of the Song.</p> ",
+    
     "thumbnail": "assets/video/Ikanaide.jpg",
     "video": "https://www.youtube.com/embed/FHDv4JNvNXs"
   },
 
   { "title": "The Badelynge Review",
     "shortdescription": "Promotional Video | Premiere Pro",
-    "longdescription": "Medium & Tools: Digital, Premier pro <p>Equipment: Samsung S22+, Dell Inspiron 7506 2n1</p> <p>this video is new, description coming soon...</p>",
+
+    "longdescription": "Medium & Tools: Digital, Premier pro <p>Equipment: Samsung S22+, Dell Inspiron 7506 2n1</p> <p>The Badelynge Review is College of the Mainland's Literary and Fine Arts Journal, as a member of the club this video was made to promote and provide more information on the Journal the work behind the scenes.</p><p>Everything was filmed on campus and throughout the making of this video I had discussed and planed each shot around everyone comfortable with the filming, the more public shots of this video were taken during the college's Club Kick off event, with prior permission beforehand as well, keeping many who where visiting the booth out of shot the best I could. several close up shots, like handling the book were aided by friends as well. The hardest part was finding a private room for intervewing the Journal's Editor and Cheif at the time.</p>",
+    
     "thumbnail": "assets/video/Badelynge-Review.jpg",
     "video": "https://youtube.com/embed/RGgJO8PSNJM"
   },
 
-   { "title": "KANA",
+  { "title": "KANA",
     "shortdescription": "Animation | Photoshop & Premiere Pro",
-    "longdescription": "Medium & Tools: Digital, Stopmotion, Lightroom Classic, Photoshop, Premier pro <p>Equipment: Panasonic HDC-tm40, Dell Inspiron 7506 2n1, Cardboard, Lined paper, Sharpie</p> <p>KANA is a stop motion animation project based off an original character, which takes places in her own narrative world. with a little over 100 frames, this project was made with a blend of traditional and digital techniques, using 3D and simple 2D animation through photoshop and procreate, drawing over a few frames to bring more life to the characters. The limited sound was added to the animation to contribute more to the eeriness the short aimed to convey that I don't think could of been done with no sound at all.</p>",
+
+    "longdescription": "Medium & Tools: Digital, Stopmotion, Lightroom Classic, Photoshop, Premier pro <p>Equipment: Panasonic HDC-tm40, Dell Inspiron 7506 2n1, Cardboard, Lined paper, Sharpie</p> <p>KANA is a stop motion animation project based off an original character, which takes places in her own narrative world.</p> <p>With a little over 100 frames, this project was made with a blend of traditional and digital techniques, using 3D and simple 2D animation through photoshop and procreate, drawing over a few frames to bring more life to the characters. The limited sound was added to the animation to contribute more to the eeriness that I wanted the short to convey that I don't think could of been done with no sound at all.</p>",
+    
     "thumbnail": "assets/video/KANA.jpg",
     "video": "https://youtube.com/embed/8JsbzX63A2s"
   },
-     { "title": "Envy Hair Salon & Spa",
+
+  { "title": "Envy Hair Salon & Spa",
     "shortdescription": "Promotional Video | Photoshop & Premiere Pro",
+
     "longdescription": "Medium & Tools: Digital, Premier pro <p>Equipment: Samsung S22+, Dell Inspiron 7506 2n1</p> <p>this video is new, description coming soon...",
+    
     "thumbnail": "assets/video/Envy-hair-salon.jpg",
     "video": "https://youtube.com/embed/OkCG1-u9lZI"
   }
